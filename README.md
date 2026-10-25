@@ -72,6 +72,8 @@ The repository includes a Streamlit-native entry point that uses the existing
 FoodVerse Python services. The original React/FastAPI application and its local
 startup instructions remain unchanged.
 
+**Live app:** [FoodVerse](https://foodverse-himanshu2236.streamlit.app/)
+
 1. Push this repository to GitHub.
 2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) and select
    **Create app**.
