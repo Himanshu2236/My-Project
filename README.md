@@ -66,6 +66,26 @@ A unified AI platform for comprehensive culinary, nutritional, and food safety i
 - Python 3.10+ (tested with Python 3.14)
 - Node.js 18+ and npm
 
+### Deploy to Streamlit Community Cloud
+
+The repository includes a Streamlit-native entry point that uses the existing
+FoodVerse Python services. The original React/FastAPI application and its local
+startup instructions remain unchanged.
+
+1. Push this repository to GitHub.
+2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) and select
+   **Create app**.
+3. Choose this repository and branch, then set the app file path to
+   `streamlit_app.py`.
+4. In the app's **Advanced settings**, select Python 3.12. The root
+   `requirements.txt` installs the backend dependencies and Streamlit.
+5. If using Gemini, add `GEMINI_API_KEY` to the app's Secrets as an environment
+   variable, then deploy. The app also works without a key using its offline
+   analysis services.
+
+The Streamlit deployment provides the FoodVerse overview, food recognition,
+freshness, kitchen hygiene, cooking assistant, and meal planner features.
+
 ### 1. Install Backend Dependencies
 ```bash
 pip install -r backend/requirements.txt
