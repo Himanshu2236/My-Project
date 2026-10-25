@@ -81,9 +81,8 @@ startup instructions remain unchanged.
    `streamlit_app.py`.
 4. In the app's **Advanced settings**, select Python 3.12. The root
    `requirements.txt` installs the backend dependencies and Streamlit.
-5. If using Gemini, add `GEMINI_API_KEY` to the app's Secrets as an environment
-   variable, then deploy. The app also works without a key using its offline
-   analysis services.
+5. Optionally enter a Gemini API key in the password-protected sidebar after
+   launch. The app also works without a key using its offline analysis services.
 
 The Streamlit deployment provides the FoodVerse overview, food recognition,
 freshness, kitchen hygiene, cooking assistant, and meal planner features.
